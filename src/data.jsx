@@ -29,29 +29,40 @@ export const skills = [
   },
 ];
 
+import cocktailImg from "./assets/cocktail.png";
+
+import taskifyLight from "./assets/taskifyLight.png";
+import taskifyDark from "./assets/taskifyDark.png";
+
+import unsplashLight from "./assets/unsplashLight.png";
+import unsplashDark from "./assets/unsplashDark.png";
+
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    // img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: cocktailImg,
+    url: "https://cocktail-mix-mastar.netlify.app/",
+    github: "https://github.com/ashrafsoftech/MixMaster",
+    title: "Mix Master",
+    text: "A cocktail discovery app that allows users to search and explore different drink recipes using data from an external API. Built with React, React Router, and modern UI design principles.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "second project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    // img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: unsplashDark,
+    url: "https:unsplash-pictures.netlify.app/",
+    github: "https://github.com/ashrafsoftech/unsplash-images",
+    title: "Unsplash Images",
+    text: "An image gallery application that fetches high-quality photos from the Unsplash API with search functionality and responsive layouts. Built using React and API integration techniques.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "third project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    // img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: taskifyDark,
+    url: "https://taskify-2025.netlify.app/",
+    github: "https://github.com/ashrafsoftech/Taskify",
+    title: "taskify",
+    text: "A task management application for organizing daily activities with features like task creation, editing, and deletion. Developed with React and focused on clean user experience.",
   },
 ];

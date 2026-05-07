@@ -14,11 +14,11 @@ const ProjectCard = ({ img, url, github, title, text }) => {
         <p className="mt-4 text-slate-700 leading-loose">{text}</p>
 
         <div className="mt-4 flex gap-x-4">
-          <a href={url}>
+          <a href={url} target="blank">
             <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
           </a>
 
-          <a href={github}>
+          <a href={github} target="blank">
             <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
           </a>
         </div>
