@@ -31,10 +31,9 @@ export const skills = [
 
 import cocktailImg from "./assets/cocktail.png";
 
-import taskifyLight from "./assets/taskifyLight.png";
+
 import taskifyDark from "./assets/taskifyDark.png";
 
-import unsplashLight from "./assets/unsplashLight.png";
 import unsplashDark from "./assets/unsplashDark.png";
 
 export const projects = [
